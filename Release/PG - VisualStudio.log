@@ -1,0 +1,112 @@
+﻿  main.cpp
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\vec3.h(37,68): warning C4244: 'return': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\vec3.h(52,13): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\vec3.h(131,13): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\vec2.h(36,10): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\vec2.h(113,13): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\object.h(304,21): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(25,32): warning C4305: 'inicializando': truncamento de 'double' para 'const float'
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(59,17): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(138,17): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(142,17): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(172,52): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(172,41): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(206,9): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(207,9): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(252,1): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(258,1): warning C4305: 'argumento': truncamento de 'double' para 'float'
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(275,32): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(275,21): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(348,14): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(349,15): warning C4244: 'inicializando': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(359,68): warning C4244: 'argumento': conversão de 'float' para 'Uint8', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(359,57): warning C4244: 'argumento': conversão de 'float' para 'Uint8', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(359,46): warning C4244: 'argumento': conversão de 'float' para 'Uint8', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(362,54): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(362,43): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(427,22): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(434,1): warning C4305: 'argumento': truncamento de 'int' para 'Uint8'
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(434,38): warning C4309: 'argumento': truncamento de valor constante
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(444,87): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(444,73): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(444,59): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(444,45): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(446,87): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(446,73): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(446,59): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(446,45): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\main.cpp(257,27): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\main.cpp(280,15): warning C4244: 'inicializando': conversão de 'Sint32' para 'float', possível perda de dados
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\main.cpp(281,15): warning C4244: 'inicializando': conversão de 'Sint32' para 'float', possível perda de dados
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244: '=': conversão de 'const _Ty' para '_Ty', possível perda de dados
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:             _Ty=int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:             _Ty=float
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\include\xutility(2245,24): warning C4244:         ]
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(185): message : consulte a referência à criação de instância 'void std::fill<_Ty*,int>(const _FwdIt,const _FwdIt,const int &)' do modelo que está sendo compilada
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(185): message :         with
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(185): message :         [
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(185): message :             _Ty=float,
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(185): message :             _FwdIt=float *
+C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\camera.h(185): message :         ]
+  Gerando código
+LINK : fatal error C1001: Erro interno no compilador.
+  (arquivo do compilador 'd:\agent\_work\1\s\src\vctools\Compiler\Utc\src\p2\main.c', linha 160)
+   Para resolver o problema, tente simplificar ou alterar o programa próximo aos locais listados acima.
+  Escolha o comando do Suporte Técnico no menu de Ajuda do Visual C++,
+   ou abra o arquivo de ajuda do Suporte Técnico para mais informações
+    link!InvokeCompilerPass()+0x2e3f2
+    link!InvokeCompilerPass()+0x21eff
+    link!InvokeCompilerPass()+0x21e20
+    link!InvokeCompilerPass()+0x2d4a0
+    link!CloseTypeServerPDB()+0x2f8bf
+    link!CloseTypeServerPDB()+0x2f805
+    link!CloseTypeServerPDB()+0x6664
+    link!CloseTypeServerPDB()+0x623f
+    link!InvokeCompilerPassW()+0xd55
+    link!InvokeCompilerPassW()+0x2c4
+  
+LINK : fatal error C1001: Erro interno no compilador.
+  (arquivo do compilador 'd:\agent\_work\1\s\src\vctools\Compiler\Utc\src\p2\main.c', linha 160)
+   Para resolver o problema, tente simplificar ou alterar o programa próximo aos locais listados acima.
+  Escolha o comando do Suporte Técnico no menu de Ajuda do Visual C++,
+   ou abra o arquivo de ajuda do Suporte Técnico para mais informações
+    link!InvokeCompilerPass()+0x2e3f2
+    link!InvokeCompilerPass()+0x21eff
+    link!InvokeCompilerPass()+0x21e20
+    link!InvokeCompilerPass()+0x2d4a0
+    link!CloseTypeServerPDB()+0x2f8bf
+    link!CloseTypeServerPDB()+0x2f805
+    link!CloseTypeServerPDB()+0x6664
+    link!CloseTypeServerPDB()+0x623f
+    link!InvokeCompilerPassW()+0xd55
+    link!InvokeCompilerPassW()+0x2c4
+  
+  
+LINK : fatal error LNK1000: Internal error during IMAGE::BuildImage
+  
+    Version 14.23.28106.4
+  
+    ExceptionCode            = C0000005
+    ExceptionFlags           = 00000000
+    ExceptionAddress         = 63CF3C0A (63850000) "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.23.28105\bin\HostX86\x86\c2.dll"
+    NumberParameters         = 00000002
+    ExceptionInformation[ 0] = 00000000
+    ExceptionInformation[ 1] = 368A291C
+  
+  CONTEXT:
+    Eax    = 00000000  Esp    = 001CE3C8
+    Ebx    = 368A291C  Ebp    = 001CE3D8
+    Ecx    = 00001505  Esi    = 00000000
+    Edx    = 00000000  Edi    = 00000000
+    Eip    = 63CF3C0A  EFlags = 00010246
+    SegCs  = 00000023  SegDs  = 0000002B
+    SegSs  = 0000002B  SegEs  = 0000002B
+    SegFs  = 00000053  SegGs  = 0000002B
+    Dr0    = 00000000  Dr3    = 00000000
+    Dr1    = 00000000  Dr6    = 00000000
+    Dr2    = 00000000  Dr7    = 00000000

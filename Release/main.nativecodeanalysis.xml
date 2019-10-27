@@ -1,0 +1,2141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>vec3.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>A variável 'vec3::e' não foi inicializada. Sempre inicialize uma variável de membro (type.6).</DESCRIPTION>
+    <FUNCTION>vec3::{ctor}</FUNCTION>
+    <DECORATED>??0vec3@@QAE@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vec3::e</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>vec2.h</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>A variável 'vec2::e' não foi inicializada. Sempre inicialize uma variável de membro (type.6).</DESCRIPTION>
+    <FUNCTION>vec2::{ctor}</FUNCTION>
+    <DECORATED>??0vec2@@QAE@XZ</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vec2::e</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>object.h</FILENAME>
+      <LINE>274</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>A variável 'Obj::texture_height' não foi inicializada. Sempre inicialize uma variável de membro (type.6).</DESCRIPTION>
+    <FUNCTION>Obj::{ctor}</FUNCTION>
+    <DECORATED>??0Obj@@QAE@XZ</DECORATED>
+    <FUNCLINE>274</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Obj::texture_height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>object.h</FILENAME>
+      <LINE>274</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>A variável 'Obj::texture_width' não foi inicializada. Sempre inicialize uma variável de membro (type.6).</DESCRIPTION>
+    <FUNCTION>Obj::{ctor}</FUNCTION>
+    <DECORATED>??0Obj@@QAE@XZ</DECORATED>
+    <FUNCLINE>274</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Obj::texture_width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>object.h</FILENAME>
+      <LINE>281</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>A variável 'Obj::texture_height' não foi inicializada. Sempre inicialize uma variável de membro (type.6).</DESCRIPTION>
+    <FUNCTION>Obj::{ctor}</FUNCTION>
+    <DECORATED>??0Obj@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>281</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Obj::texture_height</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>object.h</FILENAME>
+      <LINE>281</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>A variável 'Obj::texture_width' não foi inicializada. Sempre inicialize uma variável de membro (type.6).</DESCRIPTION>
+    <FUNCTION>Obj::{ctor}</FUNCTION>
+    <DECORATED>??0Obj@@QAE@PBD@Z</DECORATED>
+    <FUNCLINE>281</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Obj::texture_width</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>object.h</FILENAME>
+      <LINE>303</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando memória não inicializada "height".</DESCRIPTION>
+    <FUNCTION>Obj::decodeOneStep</FUNCTION>
+    <DECORATED>?decodeOneStep@Obj@@QAEXPBD@Z</DECORATED>
+    <FUNCLINE>290</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"height" não foi inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "!error" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>300</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar nesta ramificação, (supor "error")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>300</LINE>
+        <COLUMN>89</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>304</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"height" é usado, mas pode não ter sido inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>object.h</FILENAME>
+      <LINE>303</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando memória não inicializada "width".</DESCRIPTION>
+    <FUNCTION>Obj::decodeOneStep</FUNCTION>
+    <DECORATED>?decodeOneStep@Obj@@QAEXPBD@Z</DECORATED>
+    <FUNCLINE>290</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"width" não foi inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>43</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "!error" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>300</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar nesta ramificação, (supor "error")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>300</LINE>
+        <COLUMN>89</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"width" é um argumento In/Out para "std::vector&lt;vec3,std::allocator&lt;vec3&gt; &gt;::reserve" (declarado em c:\program files (x86)\microsoft visual studio\2019\professional\vc\tools\msvc\14.23.28105\include\vector:1255)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>304</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>object.h</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"width" é usado, mas pode não ter sido inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\include\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>O tipo enumerado 'SDL_bool' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>146</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando memória não inicializada "x".</DESCRIPTION>
+    <FUNCTION>camera::ClipLine</FUNCTION>
+    <DECORATED>?ClipLine@camera@@QAE_NAAVvec2@@0@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"x" não foi inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>0</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "1")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcode0==0&amp;&amp;outcode1==0" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcode0&amp;outcode1" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcodeOutside" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcodeOutside" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcodeOutside" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcodeOutside" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar nesta ramificação, (supor "outcodeOutside==outcode0")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"x" é usado, mas pode não ter sido inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando memória não inicializada "y".</DESCRIPTION>
+    <FUNCTION>camera::ClipLine</FUNCTION>
+    <DECORATED>?ClipLine@camera@@QAE_NAAVvec2@@0@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>101</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>102</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"y" não foi inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>112</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>114</LINE>
+        <COLUMN>0</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "1")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcode0==0&amp;&amp;outcode1==0" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>120</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcode0&amp;outcode1" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>125</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcodeOutside" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>132</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "outcodeOutside" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>137</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>141</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>145</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar nesta ramificação, (supor "outcodeOutside==outcode0")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>146</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>147</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"y" é usado, mas pode não ter sido inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Estouro aritmético: usando o operador '-' em um valor de byte 4 e, em seguida, convertendo o resultado em um valor de byte 8. Converta o valor no tipo mais amplo antes de chamar o operador '-' para evitar estouro (io.2).</DESCRIPTION>
+    <FUNCTION>camera::ClipLine</FUNCTION>
+    <DECORATED>?ClipLine@camera@@QAE_NAAVvec2@@0@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Estouro aritmético: usando o operador '-' em um valor de byte 4 e, em seguida, convertendo o resultado em um valor de byte 8. Converta o valor no tipo mais amplo antes de chamar o operador '-' para evitar estouro (io.2).</DESCRIPTION>
+    <FUNCTION>camera::ClipLine</FUNCTION>
+    <DECORATED>?ClipLine@camera@@QAE_NAAVvec2@@0@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>353</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando memória não inicializada "wa1".</DESCRIPTION>
+    <FUNCTION>camera::fill_triangle</FUNCTION>
+    <DECORATED>?fill_triangle@camera@@QAEXPAUSDL_Renderer@@ABVvec2@@11ABUTriangle@@ABVvec3@@@Z</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"wa1" não foi inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "vproj[i].x()&lt;bbmin[](0)" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "vproj[i].x()&lt;bbmin[](0)" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continuar este loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "y&lt;=bbmin[](1)")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "x&lt;=bbmax[](0)")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"wa1" é usado, mas pode não ter sido inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>353</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando memória não inicializada "wa2".</DESCRIPTION>
+    <FUNCTION>camera::fill_triangle</FUNCTION>
+    <DECORATED>?fill_triangle@camera@@QAEXPAUSDL_Renderer@@ABVvec2@@11ABUTriangle@@ABVvec3@@@Z</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"wa2" não foi inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "vproj[i].x()&lt;bbmin[](0)" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "vproj[i].x()&lt;bbmin[](0)" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continuar este loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "y&lt;=bbmin[](1)")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "x&lt;=bbmax[](0)")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "&lt;condição do ramo&gt;" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"wa2" é usado, mas pode não ter sido inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+      <FILENAME>camera.h</FILENAME>
+      <LINE>353</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando memória não inicializada "wa3".</DESCRIPTION>
+    <FUNCTION>camera::fill_triangle</FUNCTION>
+    <DECORATED>?fill_triangle@camera@@QAEXPAUSDL_Renderer@@ABVvec2@@11ABUTriangle@@ABVvec3@@@Z</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>225</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>231</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>237</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>239</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>243</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>262</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaração</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"wa3" não foi inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "vproj[i].x()&lt;bbmin[](0)" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "vproj[i].x()&lt;bbmin[](0)" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>315</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continuar este loop, (supor "i&lt;3")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "y&lt;=bbmin[](1)")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar neste loop, (supor "x&lt;=bbmax[](0)")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>ramificação</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Ignorar esta ramificação, (supor que "&lt;condição do ramo&gt;" é falso)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\lucas\Documents\PG\PG - VisualStudio\PG - VisualStudio\</FILEPATH>
+        <FILENAME>camera.h</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>uso</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"wa3" é usado, mas pode não ter sido inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
